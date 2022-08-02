@@ -1,0 +1,2 @@
+# Online-Data-Plan-Booking-Using-Django
+This work deals with the development of Online Data Plan Booking using Django. The website can enables to add customer, plan and subscriptions. It also supports toviewthe Planlist and Customer list and uses MySql database to store the data.This project iswritten in python and with the use of django framework. It demonstrates howthis websitedoes its operations like adding,deleting the 
