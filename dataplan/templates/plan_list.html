@@ -1,0 +1,14 @@
+{% block content %}
+  <h1>plan INfo</h1>
+  {% if plan_list %}
+  <table border>
+    {% for plan in plan_list %}
+      <tr>
+       <td> {{ plan.name}}</td><td> {{ plan.price }}</td> <td>{{plan.days}}</td><td>{{plan.offer}}</td>
+       </tr>
+    {% endfor %}
+    </table>
+  {% else %}
+    <p>There are no plan .</p>
+  {% endif %}
+{% endblock %}
